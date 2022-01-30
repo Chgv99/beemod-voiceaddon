@@ -1,0 +1,32 @@
+"ID"		"test"
+"Name"		"Test"
+"Desc"      "testtest"
+
+"Music"
+	{
+	"ID"            "TEST"
+	"Name"          "Test"
+	"ShortName"     "Testtest"
+	"Group"         "Test Addons"
+	"Icon"          ""
+	"IconLarge"     ""
+	"Authors"       "e"
+	"Description"   "Sound test"
+	"Sample"
+		{
+		"Base"     "soundtest/portal_sample_line.ogg"
+		"tbeam"    "soundtest/portal_sample_line.ogg"
+		"speedGel" "soundtest/portal_sample_line.ogg"
+		"BounceGel"  "soundtest/portal_sample_line.ogg"
+		}
+	"loop_len"      "0:30"
+	"SoundScript"
+		{
+		"Base"     "BEE2/music/soundtest/portal_sample_line.wav"
+		"tbeam"    "BEE2/music/soundtest/portal_sample_line.wav"
+		"speedGel" "BEE2/music/soundtest/portal_sample_line.wav"
+		"BounceGel"  "BEE2/music/soundtest/portal_sample_line.wav"
+
+		"sync_funnel" "1"
+		}
+	}
